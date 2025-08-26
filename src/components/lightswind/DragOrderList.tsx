@@ -80,7 +80,7 @@ function DragOrderItem({ item }: { item: DragItem }) {
             rel="noopener noreferrer"
             className="mt-2 inline-block text-xs text-blue-500 hover:underline"
           >
-            More Info
+            Link
           </a>
         )}
       </div>

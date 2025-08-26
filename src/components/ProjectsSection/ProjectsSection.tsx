@@ -22,7 +22,7 @@ const [projects] = useState([
     subtitle:
       "Developed a dynamic QR code generator with customizable colors, embedded logos, and download options.",
     date: "2025",
-    link: "https://example.com/qr-code-generator",
+    link: "https://mood-tracker-tau-lime.vercel.app/",
     image:
       "https://images.pexels.com/photos/1111314/pexels-photo-1111314.jpeg",
   },
