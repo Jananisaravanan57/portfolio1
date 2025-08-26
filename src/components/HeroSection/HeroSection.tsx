@@ -103,8 +103,8 @@ export const HeroSection = () => {
       >
         <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg">
           <img
-            src="https://images.pexels.com/photos/5908778/pexels-photo-5908778.jpeg"
-            alt="Scarlett Rose"
+            src="src\assets\portfolio.jpg"
+            alt="My image"
             className="w-full h-full object-cover"
           />
         </div>
