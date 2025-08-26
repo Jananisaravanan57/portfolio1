@@ -1,5 +1,6 @@
 import { Badge } from "../lightswind/badge";
 import { motion } from "framer-motion";
+import portfolioImg from "../../assets/portfolio.jpg";
 
 export const HeroSection = () => {
   return (
@@ -103,7 +104,7 @@ export const HeroSection = () => {
       >
         <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg">
           <img
-            src="src\assets\portfolio.jpg"
+            src={portfolioImg}
             alt="My image"
             className="w-full h-full object-cover"
           />
