@@ -15,7 +15,7 @@ export interface TimelineEvent {
   year: string;
   title: string;
   subtitle?: string;
-  description: string;
+  description: string[];
   icon?: React.ReactNode;
   color?: string;
 }
@@ -367,8 +367,8 @@ export const ScrollTimeline = ({
                         )}
                         <p className="text-muted-foreground">
                           <ul className="list-disc pl-4 space-y-1">
-                            {event.description.map((point, index) => (
-                              <li key={index}>{point}</li>
+                            {event.description.map((line: string, index: number) => (
+                              <p key={index}>{line}</p>
                             ))}
                           </ul>
 
