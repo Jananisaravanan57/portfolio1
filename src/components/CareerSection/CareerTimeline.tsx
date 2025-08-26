@@ -1,5 +1,5 @@
 import { ScrollTimeline } from "../lightswind/scroll-timeline";
-import { Globe } from "lucide-react";
+import { Briefcase } from "lucide-react";
 
 export const CareerTimeline = () => {
   const careerEvents = [
@@ -15,7 +15,7 @@ export const CareerTimeline = () => {
           "Participated in code reviews and contributed to best practices.",
           "Worked on bug fixing, feature enhancements, and deployment activities."
         ],
-      icon: <Globe className="h-4 w-4 mr-2 text-primary" />,
+      icon: <Briefcase className="h-4 w-4 mr-2 text-primary" />,
     },
   ];
 

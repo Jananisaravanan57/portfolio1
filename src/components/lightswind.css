@@ -21,6 +21,7 @@
 
   /* HSL values for theme colors */
   --background: 0 0% 100%;
+  --backgroundbg: 235.9deg 52.65% 87.01%;
   --foreground: 0 0% 0%;
 
   --card: 0 0% 100%;
@@ -68,6 +69,7 @@
 
   /* HSL values for theme colors in dark mode */
   --background: 0 0% 0%;
+   --backgroundbg: 0 0% 0%;
   --foreground: 0 0% 100%;
 
   --card: 0 0% 5%;
@@ -596,7 +598,7 @@ body {
   color: hsl(var(--background));
 }
 .bg-background {
-  background-color: hsl(var(--background));
+  background-color: hsl(var(--backgroundbg));
 }
 
 .text-foreground {
