@@ -12,7 +12,7 @@ const [projects] = useState([
     subtitle:
       "An AI-powered travel planner that generates personalized itineraries based on your selected days and destination.",
     date: "2025",
-    link: "https://example.com/planpal",
+    link: "https://planpal-travel-planner.vercel.app",
     image:
       "https://images.pexels.com/photos/3184450/pexels-photo-3184450.jpeg",
   },
